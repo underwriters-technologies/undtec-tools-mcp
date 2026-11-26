@@ -27,6 +27,21 @@ It needs no key and no sign-in. Every tool only reads data.
 
 Each answer gives its data source and a link to the web page that shows the same result.
 
+## One server per tool
+
+Each tool site also has its own MCP server with only its own tools:
+
+| Server | Endpoint | MCP Registry name |
+|---|---|---|
+| Wildfire Map | `https://wildfire.undtec.com/mcp` | `com.undtec/wildfire` |
+| FloodMap | `https://flood.undtec.com/mcp` | `com.undtec/flood` |
+| Distance to Coast | `https://dtc.undtec.com/mcp` | `com.undtec/dtc` |
+| Longitude-Latitude Finder | `https://mappin.undtec.com/mcp` | `com.undtec/mappin` |
+| VIN Decoder | `https://vin.undtec.com/mcp` | `com.undtec/vin` |
+| FMCSA Carrier Lookup | `https://fmcsa.undtec.com/mcp` | `com.undtec/fmcsa` |
+| Carrier Lookup | `https://carriers.undtec.com/mcp` | `com.undtec/carriers` |
+| Surplus Lines Tax Calculator | `https://sltax.undtec.com/mcp` | `com.undtec/sltax` |
+
 ## Connect
 
 Claude Code:
